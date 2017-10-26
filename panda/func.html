@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function func(x){
+        var countx = 0;
+        while(true){
+            countx++;
+            x = x & (x - 1);
+        }
+        return countx;
+    }
+    func(999);
+
+</script>
+</body>
+</html>

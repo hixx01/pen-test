@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    debugger;
+    var a = 'hello World';
+    function bb(){
+        a = 'hello Bill';
+        return;
+        console.log(a);
+        function a(){};
+    }
+    bb()      //'hello Bill'
+    alert(a);  //'hello Bill'
+
+</script>
+</body>
+</html>
